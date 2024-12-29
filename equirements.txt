@@ -1,7 +1,0 @@
-langchain-community
-langchain_text_splitters
-langchain-huggingface
-chromadb
-langchain_google_genai
-protobuf
-sentence-transformers
