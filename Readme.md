@@ -19,11 +19,12 @@ RAG combines two powerful components:
 
 ## 🌟 Features
 
-- **Smart Document Processing**: Efficiently handles internal project documentation
+- **Smart Document Processing**: Efficiently handles any type of file(e.g doc exls, pdf, csv, etc) internal project documentation
 - **Vector Search**: Uses RetrievalQA from langfchain QA_chain for lightning-fast similarity search
 - **Context-Aware Responses**: Maintains conversation history for better understanding
 - **Structured Output**: Organized response format :
 - **Privacy-Focused**: Runs LLM operations within your infrastructure
+- **hybird retrieval**: use advance techniqe BM25 + embedding retrieval. 
 
 
 ## 🛠️ Technologies Used
@@ -33,6 +34,7 @@ RAG combines two powerful components:
 - chorma - Vector Database
 - huggingface - Embeddings
 - Gemini - LLM Provider
+- BM25 - hybird vecter secarch cobined with retieveal data by retrival 
 
 ## 📋 Prerequisites
 
